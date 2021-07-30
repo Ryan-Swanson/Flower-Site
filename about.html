@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- Students: Please use this week's project for Week 5: Assignment 5: Interaction + Decoration. 
+     You will need to replace the contents of this HTML file with your own work, 
+     and create any other files, if any, required for the assignment.
+     When you are done, be certain to submit the assignment in Canvas to be graded. -->
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <!-- Include local bootstrap css file -->
+    <link rel="stylesheet" href="bootstrap413/css/bootstrap.css">
+
+    <!-- load the jQuery JavaScript library required for Bootstrap's JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Include local bootstrap js file -->
+    <script src="bootstrap413/js/bootstrap.min.js"></script>
+
+    <!-- Load custom font file -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- load external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+   
+    <!-- load the popper JavaScript library required for Boostrap's JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Load fontawesome -->
+    <script src="https://kit.fontawesome.com/ce6bde3453.js" crossorigin="anonymous"></script>
+        <script>
+$(document).ready(function(){
+
+/*! Fades in page on load */
+$('body').css('display', 'none');
+$('body').css('background-color', '#FFFDDD');
+$('body').fadeIn(250);
+
+});
+ </script>
+
+	<title>About</title>
+</head>
+
+<body>
+
+
+<div class="heading">
+  <div class="menuBar">
+<nav class="navbar navbar-expand-lg ">
+  <a class="navbar-brand"
+     data-toggle="tooltip" data-placement="right" title="Take me Home!" href="index.html">
+    <i class="fas fa-leaf">FindFlowers</i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="catalog.html">Catalog</a>
+     <a class="nav-item nav-link" href="about.html">About</a>
+     <button class="btn btn dropdown-toggle dropDown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Flowers
+  </button>
+  <div class="dropdown-menu dropdown-menu-right dropDown" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="item1.html">Autumn Crocus</a>
+    <a class="dropdown-item" href="item2.html">Sun Flower</a>
+    <a class="dropdown-item" href="item3.html">Dahlia</a>
+    <a class="dropdown-item" href="item4.html">Rose</a>
+  </div>
+      
+    </div>
+  </div>
+</nav>
+  </div>
+</div> <!--End menuBar-->
+
+
+<!-- Site content -->
+<div class="container-fluid"  >
+    <div class="row">
+      <!-- Heading with graphic -->
+        <div class="col-xl-7 col-lg-7 col-md-6 col-12">
+          <img class="img-fluid crocusImg aboutImg" src="Assets/lolaBear.jpg" alt="My dog, and our flowers"
+          data-toggle="tooltip" data-placement="right" title="My dog, Lola, near flowers in my yard" >
+
+        </div>
+        <div class="col-xl-5 col-lg-5 col-sm-6 col-md-6 mainText">
+          <h1>About</h1>
+          <main> 
+            <p> This is in a way a passion project for me. I am a lover of all things colorful, especially naturally vibrant. I chose to make a 
+              website about flowers, because I felt that they were so variant and beautiful, that there would be no way I could possibly run out
+              of content, and it would also allow me the opportunity to make a site that captures beauty thats all around us, that we may not 
+              see, or think about these days. The pictures have been sourced from <a href="https://www.pexels.com/"> Pexels </a>, <a href="https://www.wikipedia.com/"> Wikipedia</a>,
+            and information sourced from <a href="https://www.wikipedia.com/"> Wikipedia</a>
+            </p>
+          </main>
+       
+        </div>
+        <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12 lowercontent">
+          <h2 class="feedback">Feedback </h2>
+
+
+
+          <form action="https://formspree.io/mrgogrjl"
+                method="POST">
+    <div class="form-group feedback">
+      <label for="formComment">Do you have any comments about the site?</label>
+      <input name="comment" type="text" class="form-control form-control-lg" id="formComment" placeholder="Your comments">
+    </div>
+    <div class="form-group feedback">
+      <label  for="formPassword">Do you have any questions about the site?</label>
+      <input name="question" type="text" class="form-control form-control-lg" id="formPassword" placeholder="Your questions">
+    </div>
+        <div class="form-group feedback">
+      <label for="formSuggestion" >Do you have any suggestions for flowers on this site?</label>
+      <input name="flowerSuggestion" type="text" class="form-control form-control-lg" id="formSuggestion" placeholder="Your suggestions">
+    </div>
+    <button type="submit" class="btn btn-primary submit">Submit</button>
+  </form>
+
+
+
+
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 ">
+           <img class="img-fluid crocusImg" src="Assets/wikiCrocus.jpg" alt="A autumn crocus"
+          data-toggle="tooltip" data-placement="right" title="An autumn crocus taken by Jan Mehlich" >
+          Lestat (Jan Mehlich) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)
+          </div>
+    
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 lowerContent footer">
+          <h3>Thank you for visiting FindFlowers</h3>
+          <p>
+            The images on this page were sourced from <a href="https://www.pexels.com/"> Pexels </a>, 
+            and information sourced from <a href="https://www.wikipedia.com/"> Wikipedia </a>
+          </p>
+    </div>
+</div>
+</div>
+
+
+
+  <!-- jQuery library file via CDN -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <!-- Bootstrap JavaScript file via CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

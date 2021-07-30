@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropDown {
+  color:white;
+    background-color: #00b09b;
+    font-weight:500;
+}
+
+.carousel {
+  max-width: 960px;
+}
+
+.crocusImg {
+  max-height:900px;
+}
+
+body {
+  background-color: white;
+}
+
+.footer {
+  padding-top:40px;
+  display:grid;
+  place-items:center;
+}
+
+.dropdown-item:hover {
+  background-color: #02968498;
+}
+
+.textCenter {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+* h1 {
+font-family: 'Dancing Script', cursive;
+font-size: 4em;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+p {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1em;
+}
+
+.lowerContent {
+  background-color: #00b09b;
+  color: white; 
+}
+
+.lowerContent a{
+  background-color: #00b09b;
+  color: orange;
+}
+.rose {
+  display: block; 
+  max-height: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.orangeRose {
+  display: block; 
+  max-height: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+.menuBar{
+  background-image: linear-gradient(-90deg,#00b09b, #96c93d );
+}
+
+nav a {
+  font-size: 16px;
+  margin: 3px;
+  color: #fff !important;
+  font-weight:500;
+}
+
+.navbar .fas {
+  color: white;
+}
+
+.navbar-nav {
+  text-align: right;
+}
+
+.aboutImg {
+  padding: 20px;
+}
+
+.mainText {
+  padding-top: 50px;
+  padding-left: 25px;
+}
+
+.feedback {
+  padding: 20px;
+}
+
+.submit {
+  margin-left: 30px;
+  padding:20px;
+}
+
+.itemCenters {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+}

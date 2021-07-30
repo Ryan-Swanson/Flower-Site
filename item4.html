@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+   
+    <!-- Include local bootstrap css file -->
+    <link rel="stylesheet" href="bootstrap413/css/bootstrap.css">
+
+    <!-- load the jQuery JavaScript library required for Bootstrap's JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Include local bootstrap js file -->
+    <script src="bootstrap413/js/bootstrap.min.js"></script>
+
+    <!-- Load custom font file -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- load external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+   
+    <!-- load the popper JavaScript library required for Boostrap's JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Load fontawesome -->
+    <script src="https://kit.fontawesome.com/ce6bde3453.js" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){ //Fade in
+      $('body').css('display', 'none');
+      $('body').css('background-color', 'white');
+      $('body').css('background-color', '#FFFDDD');
+      $('body').fadeIn(250);
+      });
+    </script>
+	<title>The Rose</title>
+</head>
+
+<body>
+
+
+<div class="heading">
+  <div class="menuBar">
+<nav class="navbar navbar-expand-lg ">
+  <a class="navbar-brand"
+     data-toggle="tooltip" data-placement="right" title="Take me Home!" href="index.html">
+    <i class="fas fa-leaf">FindFlowers</i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="catalog.html">Catalog</a>
+     <a class="nav-item nav-link" href="about.html">About</a>
+     <button class="btn btn dropdown-toggle dropDown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Flowers
+  </button>
+  <div class="dropdown-menu dropdown-menu-right dropDown" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="item1.html">Autumn Crocus</a>
+    <a class="dropdown-item" href="item2.html">Sun Flower</a>
+    <a class="dropdown-item" href="item3.html">Dahlia</a>
+    <a class="dropdown-item" href="item4.html">Rose</a>
+  </div>
+      
+    </div>
+  </div>
+</nav>
+  </div>
+</div> <!--End menuBar-->
+
+<!-- Site content -->
+<div class="container-fluid "  >
+    <div class="row">
+      <!-- Heading with graphic -->
+        <div class="col-xl-7 col-lg-7 col-md-6 col-12">
+          <img class="img-fluid crocusImg" src="Assets/pexelsPinkRedRose.jpg" alt="A Pink-Red rose"
+          data-toggle="tooltip" data-placement="right" title="A Pink-Red rose, taken by PixaBay on Pexel" >
+
+        </div>
+        <div class="col-xl-5 col-lg-5 col-sm-6 col-md-6">
+          <h1>Roses</h1>
+          <main> 
+            <p> Roses are red. Sometimes. A rose is a perennial flowering plant of the genus Rosa, in the family Roscaeae, or the flower it bears. There are over three hundred species, and tens of thousands of cultivar(cultivated variety). They form a group of plants that can be erect shrubs, climbing, or trailing with stems that are often armed with thorns. Most species are native to Asia, and northwestern Africa. Species, cultivars, and hybrids are widely grown for their beauty, and are often fragrent.
+            </p>
+          </main>
+       <section> <br><br><br><br><br>
+         <h3>Etymology </h3>
+            The name rose comes from french, itself from Latin Rosa, which was perhaps borrowed from the Greeks, around the time of the Parthian war.
+          </section> 
+        </div>
+        <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12 lowercontent">
+          <section><h3> Uses </h3>
+            Roses are best known as ornamental plants, grown for their flowers in the garden, and sometimes indoors. They have also been used for commercial perfumery, and commercial cut flower crops. Some are used as landscape plants, for hedging, and for other purposes, such as game cover, and slope stabilization. Ornamental roses, are hybrids that were bred for their flowers. A few species roses are grown for attractive, or scented foliage. Roses are also a popular crop for domestic and commercial cut flowers.<br><br><br><br>
+            
+            Rose perfumes are made from rose oil, which is a mixture of volatile essential oils, obtained by steam distilling the crushed petals of roses. An associated product is rose water which is used for cooking, cosmetics, medicine, and religious practices. The technique originated in Persia, and spread through Arabia, and India, more recently into eastern Europe. <br><br><br><br>
+
+            Rose hips are occasionally made into jam, jelly, marmalade, soup, or tea. This is primarily because of  their high vitamin C content. They are also pressed and filtered to make rose hip syrup, as well as rose hip seed oil, which can be used in skin products, and some makeup products.
+          </section>
+
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
+           <img class="img-fluid crocusImg itemCenters" src="Assets/pexels-slawek-3718351.jpg" alt="A Pink Rose by Slawek on Pexels"
+          data-toggle="tooltip" data-placement="right" title="A pink rose" >
+          </div>
+    
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 lowerContent footer">
+          <h3>Thank you for visiting FindFlowers</h3>
+          <p>
+            The images on this page were sourced from <a href="https://www.pexels.com/"> Pexels </a>, 
+            and information sourced from <a href="https://www.wikipedia.com/"> Wikipedia </a>
+          </p>
+    </div>
+</div>
+</div>
+
+
+
+
+  <!-- jQuery library file via CDN -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <!-- Bootstrap JavaScript file via CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

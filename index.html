@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+    <!-- Include local bootstrap css file -->
+    <link rel="stylesheet" href="bootstrap413/css/bootstrap.css">
+
+    <!-- load the jQuery JavaScript library required for Bootstrap's JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Include local bootstrap js file -->
+    <script src="bootstrap413/js/bootstrap.min.js"></script>
+
+    <!-- Load custom font file -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- load external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+   
+    <!-- load the popper JavaScript library required for Boostrap's JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Load fontawesome -->
+    <script src="https://kit.fontawesome.com/ce6bde3453.js" crossorigin="anonymous"></script>
+    <script>
+$(document).ready(function(){
+
+/*! Fades in page on load */
+$('body').css('display', 'none');
+$('body').css('background-color', '#FFFDDD');
+$('body').fadeIn(1000);
+
+});
+ </script>
+
+	<title>FindFlowers</title>
+</head>
+
+<body>
+
+
+<div class="heading">
+  <div class="menuBar">
+<nav class="navbar navbar-expand-lg ">
+  <a class="navbar-brand"
+     data-toggle="tooltip" data-placement="right" title="Take me Home!" href="index.html">
+    <i class="fas fa-leaf">FindFlowers</i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="catalog.html">Catalog</a>
+     <a class="nav-item nav-link" href="about.html">About</a>
+     <button class="btn btn dropdown-toggle dropDown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Flowers
+  </button>
+  <div class="dropdown-menu dropdown-menu-right dropDown" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="item1.html">Autumn Crocus</a>
+    <a class="dropdown-item" href="item2.html">Sun Flower</a>
+    <a class="dropdown-item" href="item3.html">Dahlia</a>
+    <a class="dropdown-item" href="item4.html">Rose</a>
+  </div>
+      
+    </div>
+  </div>
+</nav>
+  </div>
+</div> <!--End menuBar-->
+
+
+<!-- Site content -->
+
+    <div class="row">
+      <!-- Heading with graphic -->
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <img class="img-fluid rose" src="Assets/pexelRose.jpg" alt="A pink rose"
+          data-toggle="tooltip" data-placement="right" title="A pink Rose, taken by Jonas Kakaroto on Pexel" >
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mainText">
+          <h1> Welcome to FindFlowers </h1>
+          <main> 
+            <p> to FindFlowers, where you can view beautiful pictures of flowers. Flowers can brighten a day, and we hope
+            to help you find flowers that inspire you, and impassion your day. Feel free to contact us any time through the 
+            about page.
+            </p>
+          </main><br><br><br>
+        <h2> How to FindFlowers </h2>
+        <aside><p>
+          At FindFlowers, we have a catalog, which can be accessed in the top right of the page, in the navigation bar. From the 
+          catalog, you can get a view of the different kinds of flowers displayed on the site, and you can click on the catalog image
+          to go to that page. </p>
+          <br><br><br>
+          <p>If you have any questions about flowers, or suggestions for the site, feel free to head over to the <a href="about.html">About</a>
+          section of the website.
+          </p>
+        </aside>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 orangeRoseDiv">
+          <img class="img-fluid orangeRose" src="Assets/pexelsOrangeRose.jpg" alt="A purple dahlia"
+          data-toggle="tooltip" data-placement="right" title="A purple dahlia, taken by Billel Moula on Pexel" >
+
+        </div>
+        <div class="col-lg-6 col-sm-6 col-md-6 col-sm-12 col-xs-12 lowerContent">
+          <h3 class="textCenter">What are flowers?</h3>
+          <p class="textCenter">
+            A flower is the reproductive structure found in blooming plants. Flowers will generally facilitate reproduction, which 
+            sometimes leads to outcrossing (fusion of sperm and eggs from different individuals in a population), resulting from
+            cross polination or self polination. 
+          </p>
+
+        </div>
+        <div class="col-lg-6 col-sm-12 col-xs-12 lowerContent">    
+          <h3 class="textCenter">Colors</h3>
+          <p class="textCenter">
+            Many flowering plants reflect as much light as possible within the range of visible wavelengths. Flowers that reflect the
+            full range of visible light, and are generally perceived as white. Color allows a flowering plant to be selecive about the 
+            pollinator it seeks to attract. Some flowering plants also have a limited ability to modulate areas of absorption. 
+          </p>
+
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 lowerContent footer">
+          <h3>Thank you for visiting FindFlowers</h3>
+          <p>
+            The images on this page were sourced from <a href="https://www.pexels.com/"> Pexels </a>, 
+            and information sourced from <a href="https://www.wikipedia.com/"> Wikipedia </a>
+          </p>
+    </div>
+</div>
+
+
+
+
+  <!-- jQuery library file via CDN -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <!-- Bootstrap JavaScript file via CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

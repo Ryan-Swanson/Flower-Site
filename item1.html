@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+   
+    <!-- Include local bootstrap css file -->
+    <link rel="stylesheet" href="bootstrap413/css/bootstrap.css">
+
+    <!-- load the jQuery JavaScript library required for Bootstrap's JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Include local bootstrap js file -->
+    <script src="bootstrap413/js/bootstrap.min.js"></script>
+
+    <!-- Load custom font file -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- load external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+   
+    <!-- load the popper JavaScript library required for Boostrap's JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Load fontawesome -->
+    <script src="https://kit.fontawesome.com/ce6bde3453.js" crossorigin="anonymous"></script>
+    
+    <script>
+      $(document).ready(function(){ //Fade in
+      $('body').css('display', 'none');
+      $('body').css('background-color', '#FFFDDD');
+      $('body').fadeIn(250);
+      });
+    </script>
+
+	<title>The Autumn Crocus</title>
+</head>
+
+<body>
+
+
+<div class="heading">
+  <div class="menuBar">
+<nav class="navbar navbar-expand-lg ">
+  <a class="navbar-brand"
+     data-toggle="tooltip" data-placement="right" title="Take me Home!" href="index.html">
+    <i class="fas fa-leaf">FindFlowers</i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="catalog.html">Catalog</a>
+     <a class="nav-item nav-link" href="about.html">About</a>
+     <button class="btn btn dropdown-toggle dropDown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Flowers
+  </button>
+  <div class="dropdown-menu dropdown-menu-right dropDown" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="item1.html">Autumn Crocus</a>
+    <a class="dropdown-item" href="item2.html">Sun Flower</a>
+    <a class="dropdown-item" href="item3.html">Dahlia</a>
+    <a class="dropdown-item" href="item4.html">Rose</a>
+  </div>
+      
+    </div>
+  </div>
+</nav>
+  </div>
+</div> <!--End menuBar-->
+
+<!-- Site content -->
+<div class="container-fluid "  >
+    <div class="row">
+      <!-- Heading with graphic -->
+        <div class="col-xl-7 col-lg-7 col-md-6 col-12">
+          <img class="img-fluid crocusImg itemCenters" src="Assets/pexelsAutumnCrocus.jpg" alt="An Autumn Crocus"
+          data-toggle="tooltip" data-placement="right" title="An Autumn Crocus, taken by PixaBay on Pexel" >
+
+        </div>
+        <div class="col-xl-5 col-lg-5 col-sm-6 col-md-6">
+          <h1>Autumn Crocus</h1>
+          <main> 
+            <p> The Autumn Crocus, less commonly known as Colchicum Autumnale is a toxic autumn-blooming flowering plant that resembles
+              true crocuses, but is a member of the plant family Colchicaceae, unlike true crocuses which belong to the family Iridaceae. 
+              The bulb-like corms of the autumn crocus contain colchicine, which is approved in many countries to treat gout, and mediterranean
+              fever.
+            </p>
+          </main>
+       
+        </div>
+        <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 col-12 lowercontent">
+          <section> <h3>Distribution </h3>
+            Colchicum autumnale is the only species of its family native to Great Britain, and Ireland, with notable populations
+            under the stewardship of the County Wildlife Trusts. It also occurs across mainland Europe from Portugal to Ukraine It is reportedly naturalized in Denmark, Sweden, European Russia, the Baltic states, and New Zealand.
+          </section> <br><br><br><br><br>
+          <section><h3> Toxicity </h3>
+            Colchicum plants are deadly poisonous due to their colchicine content, and have been mistaken by foragers for ramsons, which
+            they vaguely resemble. The symptoms of colchicine poisoning resemble those of arsenic, and there is no known antidote. The plants
+            pose particular threat to mamals, as the leaves, and fruit contain the highest levels of toxin, but all parts are regarded as
+            poisonous.
+          </section>
+
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
+           <img class="img-fluid crocusImg itemCenters" src="Assets/wikiCrocus.jpg" alt="A autumn crocus"
+          data-toggle="tooltip" data-placement="right" title="An autumn crocus taken by Jan Mehlich" >
+          Lestat (Jan Mehlich) / CC BY-SA (http://creativecommons.org/licenses/by-sa/3.0/)
+          </div>
+    
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 lowerContent footer">
+          <h3>Thank you for visiting FindFlowers</h3>
+          <p>
+            The images on this page were sourced from <a href="https://www.pexels.com/"> Pexels </a>, 
+            and information sourced from <a href="https://www.wikipedia.com/"> Wikipedia </a>
+          </p>
+    </div>
+</div>
+</div>
+
+
+
+
+  <!-- jQuery library file via CDN -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <!-- Bootstrap JavaScript file via CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
